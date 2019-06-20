@@ -5,7 +5,7 @@ spring:
             minimum-idle: 1
             maximum-pool-size: 5
         driver-class-name: com.mysql.jdbc.Driver
-        jdbc-url: jdbc:mysql://localhost/security
+        jdbc-url: jdbc:mysql://localhost/security?useSSL=false&serverTimezone=UTC
         username: root
         password: 134596
         initialization-mode: always
